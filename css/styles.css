@@ -213,18 +213,22 @@ body {
   background-color: var(--primary-bg-color);
 }
 
-.address .link {
+.address .link-address {
   color: var(--main-white-color);
-  font-family: Roboto, sans-serif;
   font-style: normal;
-  /* font-weight: 400; */
+}
+.address .link-address:hover,
+.address .link-address:focus {
+  color: var(--accent-color);
+}
+
+.address .link {
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
   font-size: 14px;
   line-height: 1, 71;
 }
 .address .link:hover,
 .address .link:focus {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--accent-color);
 }
-/* .address .link.curent {
-  color: rgba(255, 255, 255, 0.6);
-} */
