@@ -182,6 +182,10 @@ body {
   background-color: #188ce8;
 }
 
+.button {
+  display: flex;
+  justify-content: center;
+}
 .button.secondary {
   color: var(--title-text-color);
   background-color: var(--secondary-bg-color);
